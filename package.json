@@ -1,0 +1,34 @@
+{
+  "name": "@vuemodel/core",
+  "version": "0.0.1",
+  "main": "dist/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuemodel/core.git"
+  },
+  "author": "Luke Diebold",
+  "license": "MIT",
+  "description": "Core repository for contracts and implementations of VueModel",
+  "bugs": {
+    "url": "https://github.com/vuemodel/core/issues"
+  },
+  "homepage": "https://github.com/vuemodel/core#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "orm",
+    "model"
+  ],
+  "dependencies": {
+    "vue": "^3.2.31",
+    "vue-demi": "^0.12.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "typescript": "^4.6.2",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0"
+  }
+}
