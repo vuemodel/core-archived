@@ -1,7 +1,8 @@
-export interface UseCreateModelReturn<Model> {
+// export interface UseCreateModelReturn<Model> {
+//   form: Record<string, >
+//   create: () 
+// }
 
-}
+// export type UseCreateModel<Model> = () => UseCreateModelReturn<Model>
 
-export type UseCreateModel<Model> = () => UseCreateModelReturn<Model>
-
-export default UseCreateModel
+// export default UseCreateModel
